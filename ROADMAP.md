@@ -86,6 +86,9 @@ Directional ideas, roughly in order of interest — upvote in
 - **Flow labels** — detect hard-coded text in screen Flows.
 - **Multi-language label generation** — generate translations for labels via an LLM.
 - **Org-wide reporting** — reuse and coverage insights across an org.
+- **Custom managed-package namespace in references** — today generated references use the default
+  `c.` namespace (`$Label.c.MyLabel`), which works in any non-managed org; this would let ISVs emit
+  their package namespace (e.g. `$Label.myns.MyLabel`) so references resolve in a managed package.
 
 ---
 
