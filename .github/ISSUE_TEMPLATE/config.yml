@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Questions & how-to (Discussions)
+    url: https://github.com/Ramprasad94/labelalchemy/discussions/categories/q-a
+    about: Ask questions, share tips, and get help from the community.
+  - name: 🗳️ Submit & upvote an idea (Discussions)
+    url: https://github.com/Ramprasad94/labelalchemy/discussions/categories/ideas
+    about: Propose a feature and upvote others — the most-wanted ideas shape the roadmap.
+  - name: 📧 Email support (billing, license, or anything private)
+    url: mailto:support@labelalchemy.dev
+    about: For paid customers and anything you'd rather not post publicly.
+  - name: 📖 Documentation & FAQ
+    url: https://docs.labelalchemy.dev
+    about: Check the docs and FAQ first — your question may already be answered.

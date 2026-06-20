@@ -1,0 +1,103 @@
+name: 🐞 Bug report
+description: Something isn't working as expected in the Label Alchemy extension.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill out the sections below so it can be reproduced quickly.
+
+        **Please do not paste API keys, license keys, org credentials, or proprietary source — a small redacted snippet is enough.**
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and didn't find a duplicate.
+          required: true
+        - label: I checked the docs and FAQ at https://docs.labelalchemy.dev.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, and what you expected to happen instead.
+      placeholder: When I scan an Apex file, ...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open '...'
+        2. Run command '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: snippet
+    attributes:
+      label: Minimal code sample (optional)
+      description: A small, redacted snippet that triggers the issue. No secrets, no proprietary code.
+      render: java
+  - type: dropdown
+    id: filetype
+    attributes:
+      label: File type involved
+      options:
+        - Apex (.cls)
+        - LWC (.js / .html)
+        - Aura (.cmp / .app / .js)
+        - Multiple
+        - Other / not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: naming-mode
+    attributes:
+      label: Naming mode
+      options:
+        - Deterministic (offline, no API key)
+        - AI naming — per file (bring your own key)
+        - AI naming — project scope (paid)
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: ai-provider
+    attributes:
+      label: AI provider & model (only if using AI naming)
+      placeholder: e.g., Ollama / llama3.3, OpenAI / gpt-4o, Anthropic / claude-sonnet-4-6
+  - type: input
+    id: ext-version
+    attributes:
+      label: Label Alchemy version
+      placeholder: e.g., 1.0.0
+    validations:
+      required: true
+  - type: input
+    id: vscode-version
+    attributes:
+      label: VS Code version
+      description: Help → About (or Code → About Visual Studio Code)
+      placeholder: e.g., 1.96.0
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - macOS
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / output
+      description: Any error text from the Output panel or notifications. Redact anything sensitive.
+      render: shell
