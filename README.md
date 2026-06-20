@@ -1,6 +1,6 @@
 # Label Alchemy — Support & Community
 
-This is the public **support, feedback, and roadmap hub** for **Label Alchemy**, the VS Code extension that converts user-facing hard-coded strings in Salesforce Apex, LWC, and Aura code into Custom Labels.
+This is the public **support, feedback, and roadmap hub** for **Label Alchemy**, the VS Code extension that converts user-facing hard-coded strings in Salesforce Apex, LWC, and Aura code into Custom Labels — deterministic by default, with optional AI-assisted naming (BYOK). Scanning, single-file conversion, label categories, and the project Audit Report are **free**; bulk convert, deploy-to-org, project-wide AI naming, and the custom denylist require a license. See [Features](https://docs.labelalchemy.dev/features/) and [Pricing](https://labelalchemy.dev/#pricing).
 
 > ℹ️ The extension's source code is **not** hosted here. This repository exists for bug reports, feature requests, questions, announcements, and the public roadmap.
 

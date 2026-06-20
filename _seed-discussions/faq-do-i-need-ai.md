@@ -14,8 +14,9 @@ stored in VS Code's encrypted secret storage and used only to call that provider
 **Supported providers:** Anthropic (Claude), OpenAI, Google Gemini, DeepSeek, OpenRouter, Ollama,
 LM Studio, and any custom OpenAI-compatible endpoint.
 
-**Can I use AI naming for free?** Yes — with **Ollama** or **LM Studio**, which run local models on
-your machine at $0 and keep everything local.
+**Can I use AI naming for free?** Yes — per-file AI naming works on the free tier, and with
+**Ollama** or **LM Studio** the model runs locally at $0. **Project-wide AI naming** (which reuses
+your existing labels and follows your naming convention across the codebase) requires a license.
 
 Either way, every suggested name is **editable** in the diff panel before you approve, and the
 Approve button stays disabled until all names are valid — so the model can never push an invalid

@@ -1,27 +1,29 @@
-# License activation & machine limits
+# License activation & moving between machines
 
-**Q: How does activation work, and is the license per machine or per user?**
+**Q: How does activation work, and how do I move my license to another machine?**
 
-**Activating Pro:** open the Command Palette → **Label Alchemy: Enter License Key** and paste the
-key from your Lemon Squeezy purchase email. Keys are case-sensitive — copy with no extra spaces.
+**Activating:** open the Command Palette → **Label Alchemy: Enter License Key** and paste the key
+from your Lemon Squeezy purchase email. Keys are case-sensitive — copy with no extra spaces. On
+success, the paid features unlock immediately.
 
-**Per user, validated by machine ID.** The Individual license is tied to your VS Code machine ID. If
-you work across multiple machines, email **support@labelalchemy.dev** and we'll sort it out. The
-**Team** tier supports multiple seats (3-seat minimum).
+**Moving between machines (self-serve):** your license activates a limited number of devices (seats).
+To move it yourself — no need to email support:
+1. On the machine you're leaving, run **Label Alchemy: Deactivate License on This Device** (frees the seat).
+2. On the new machine, run **Label Alchemy: Enter License Key** with the same key.
 
-**One-time purchase, owned forever.** The Individual license is a one-time buy — **$49 personal /
-$99 commercial** — that you own forever, with free updates within version 1. Only the **Team** tier
-is a subscription ($15/seat/month, 3-seat minimum, or $144/seat/year). At launch, a **Founding
-Member** early-bird gives the first 100 buyers the full license for **$29 one-time**.
+If you hit the activation limit, deactivate on a device you no longer use, or add another license.
 
-**Regional pricing:** Lemon Squeezy's Purchasing Power Parity pricing applies automatically at
-checkout (~40–50% off for India and similar markets) — no code needed.
+**One-time, perpetual license.** The version you buy is yours to keep forever. It includes a
+12-month window of updates; after that, your version keeps working and only newer features lock until
+you renew updates. A per-seat **Team** plan is coming soon.
 
 **Offline / validation failures:** Label Alchemy has a **3-day grace period**. If it validated
 successfully before and can't reach the license server now, you keep working normally; a warning
-appears after 1 day.
+appears after 1 day. The check only ever sends your license key and a VS Code machine ID — never your
+source.
 
-**Key not accepted?** Confirm you're using the key from your purchase email (case-sensitive). If it
-was already activated on another machine, email **support@labelalchemy.dev**.
+**Key not accepted?** Confirm you're using the key from your purchase email (case-sensitive). If the
+activation limit is reached, deactivate on another device first.
 
-📖 Full details: https://docs.labelalchemy.dev/license-activation · 💳 Pricing: https://labelalchemy.dev/#pricing
+📖 Full details: https://docs.labelalchemy.dev/license-activation/ · 💳 Current pricing, the
+founding-member offer, and renewal costs: https://labelalchemy.dev/#pricing
