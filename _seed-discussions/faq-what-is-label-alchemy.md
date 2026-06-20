@@ -22,4 +22,4 @@ shows you a diff, and writes the changes only when you approve.
 It works with any Salesforce DX project structure regardless of org type, and runs alongside the
 Salesforce Extensions Pack.
 
-📖 Full docs: https://docs.labelalchemy.dev · 🗺️ Roadmap: see [ROADMAP.md](../../blob/main/ROADMAP.md)
+📖 Full docs: https://docs.labelalchemy.dev · 🗺️ Roadmap: see [ROADMAP.md](https://github.com/Ramprasad94/labelalchemy/blob/main/ROADMAP.md)

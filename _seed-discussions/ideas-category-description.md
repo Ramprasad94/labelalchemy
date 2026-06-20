@@ -11,6 +11,6 @@ for your Salesforce work — one idea per post.
 **To submit:** open a new discussion here, describe the idea and the problem it solves.
 **To support an idea:** give it a 👍 — upvotes are the strongest signal for what gets built next.
 
-The most-upvoted ideas shape the [roadmap](../../blob/main/ROADMAP.md). Upvotes guide priority but
-aren't a commitment or a delivery date. For bugs, use [issues](../../issues/new?template=bug_report.yml)
+The most-upvoted ideas shape the [roadmap](https://github.com/Ramprasad94/labelalchemy/blob/main/ROADMAP.md). Upvotes guide priority but
+aren't a commitment or a delivery date. For bugs, use [issues](https://github.com/Ramprasad94/labelalchemy/issues/new?template=bug_report.yml)
 instead; for anything private, email **support@labelalchemy.dev**.

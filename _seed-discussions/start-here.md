@@ -11,17 +11,17 @@ in Salesforce Apex, LWC, and Aura code into Custom Labels.
 
 | I want to… | Go here |
 |------------|---------|
-| 🐞 **Report a bug** | [Open a Bug report issue](../../issues/new?template=bug_report.yml) |
-| 💡 **Request a feature** | [Open a Feature request issue](../../issues/new?template=feature_request.yml) |
-| 💬 **Ask a question / how-to** | [Discussions → Q&A](../../discussions/categories/q-a) |
-| 🗳️ **Submit & upvote an idea** | [Discussions → Ideas](../../discussions/categories/ideas) |
-| 🗺️ **See what's planned** | [ROADMAP.md](../../blob/main/ROADMAP.md) |
+| 🐞 **Report a bug** | [Open a Bug report issue](https://github.com/Ramprasad94/labelalchemy/issues/new?template=bug_report.yml) |
+| 💡 **Request a feature** | [Open a Feature request issue](https://github.com/Ramprasad94/labelalchemy/issues/new?template=feature_request.yml) |
+| 💬 **Ask a question / how-to** | [Discussions → Q&A](https://github.com/Ramprasad94/labelalchemy/discussions/categories/q-a) |
+| 🗳️ **Submit & upvote an idea** | [Discussions → Ideas](https://github.com/Ramprasad94/labelalchemy/discussions/categories/ideas) |
+| 🗺️ **See what's planned** | [ROADMAP.md](https://github.com/Ramprasad94/labelalchemy/blob/main/ROADMAP.md) |
 | 📧 **Billing, license, or anything private** | Email **support@labelalchemy.dev** |
-| 🔒 **Report a security vulnerability** | See [SECURITY.md](../../blob/main/SECURITY.md) — **do not** open a public issue |
+| 🔒 **Report a security vulnerability** | See [SECURITY.md](https://github.com/Ramprasad94/labelalchemy/blob/main/SECURITY.md) — **do not** open a public issue |
 
 ## Before you post
 
-1. **Search** [existing issues](../../issues?q=is%3Aissue) and [discussions](../../discussions) — your question may already be answered.
+1. **Search** [existing issues](https://github.com/Ramprasad94/labelalchemy/issues?q=is%3Aissue) and [discussions](https://github.com/Ramprasad94/labelalchemy/discussions) — your question may already be answered.
 2. Check the **[docs & FAQ](https://docs.labelalchemy.dev)**.
 3. For bugs, include your extension version, VS Code version, OS, and a small **redacted** repro snippet.
 
